@@ -7,6 +7,7 @@ import { Database } from '@strapi/database';
 
 import type { Core, Modules, UID, Schema } from '@strapi/types';
 
+import tsUtils from '@strapi/typescript-utils';
 import { loadConfiguration } from './configuration';
 
 import * as factories from './factories';
@@ -269,20 +270,21 @@ class Strapi extends Container implements Core.Strapi {
       .add('entityValidator', entityValidator)
       .add('entityService', () => createEntityService({ strapi: this, db: this.db }))
       .add('documents', () => createDocumentService(this))
-      .add(
-        'db',
-        () =>
-          new Database(
-            _.merge(this.config.get('database'), {
-              logger,
-              settings: {
-                migrations: {
-                  dir: path.join(this.dirs.app.root, 'database/migrations'),
-                },
+      .add('db', async () => {
+        // fixme: sync resolveOutDir()
+        const outDir = tsUtils.resolveOutDir(this.dirs.app.root) as Promise<string>;
+        const root = outDir === undefined ? this.dirs.app.root : await outDir;
+        return new Database(
+          _.merge(this.config.get('database'), {
+            logger,
+            settings: {
+              migrations: {
+                dir: path.join(root, 'database/migrations'),
               },
-            })
-          )
-      )
+            },
+          })
+        );
+      })
       .add('reload', () => createReloader(this));
   }
 
