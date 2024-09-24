@@ -59,7 +59,7 @@
     "@reduxjs/toolkit": "1.9.7",
     "@sindresorhus/slugify": "1.1.0",
     "@strapi/design-system": "2.0.0-rc.11",
-    "@strapi/generators": "workspace:*",
+    "@strapi/generators": "4.0.0",
     "@strapi/icons": "2.0.0-rc.11",
     "@strapi/utils": "workspace:*",
     "date-fns": "2.30.0",
