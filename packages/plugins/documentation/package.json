@@ -55,10 +55,10 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.9.7",
-    "@strapi/admin": "workspace:*",
+    "@strapi/admin": "4.0.0",
     "@strapi/design-system": "2.0.0-rc.11",
     "@strapi/icons": "2.0.0-rc.11",
-    "@strapi/utils": "workspace:*",
+    "@strapi/utils": "4.0.0",
     "bcryptjs": "2.4.3",
     "cheerio": "^1.0.0-rc.12",
     "formik": "2.4.5",
