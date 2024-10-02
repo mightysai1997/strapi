@@ -15,7 +15,7 @@
   "dependencies": {
     "@strapi/icons": "2.0.0-rc.11",
     "@strapi/plugin-color-picker": "workspace:*",
-    "@strapi/plugin-documentation": "workspace:*",
+    "@strapi/plugin-documentation": "4.25.13",
     "@strapi/plugin-graphql": "workspace:*",
     "@strapi/plugin-sentry": "workspace:*",
     "@strapi/plugin-users-permissions": "workspace:*",
