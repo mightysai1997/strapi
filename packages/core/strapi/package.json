@@ -109,7 +109,7 @@
   },
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "0.5.11",
-    "@strapi/admin": "workspace:*",
+    "@strapi/admin": "4.0.0",
     "@strapi/cloud-cli": "workspace:*",
     "@strapi/content-manager": "workspace:*",
     "@strapi/content-releases": "workspace:*",
@@ -126,7 +126,7 @@
     "@strapi/review-workflows": "workspace:*",
     "@strapi/types": "workspace:*",
     "@strapi/typescript-utils": "workspace:*",
-    "@strapi/upload": "workspace:*",
+    "@strapi/upload": "0.0.0",
     "@strapi/utils": "workspace:*",
     "@types/nodemon": "1.19.6",
     "@vitejs/plugin-react-swc": "3.6.0",
