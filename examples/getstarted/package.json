@@ -15,8 +15,8 @@
   "dependencies": {
     "@strapi/icons": "2.0.0-rc.11",
     "@strapi/plugin-color-picker": "workspace:*",
-    "@strapi/plugin-documentation": "workspace:*",
-    "@strapi/plugin-graphql": "workspace:*",
+    "@strapi/plugin-documentation": "4.0.0",
+    "@strapi/plugin-graphql": "4.0.0",
     "@strapi/plugin-sentry": "workspace:*",
     "@strapi/plugin-users-permissions": "workspace:*",
     "@strapi/provider-email-mailgun": "workspace:*",
