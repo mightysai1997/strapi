@@ -46,7 +46,7 @@
   "dependencies": {
     "@strapi/utils": "workspace:*",
     "form-data": "^4.0.0",
-    "mailgun.js": "10.2.1"
+    "mailgun.js": "10.2.4"
   },
   "devDependencies": {
     "@strapi/pack-up": "5.0.0",
