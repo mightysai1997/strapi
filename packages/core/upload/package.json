@@ -47,7 +47,7 @@
   "dependencies": {
     "@strapi/design-system": "2.0.0-rc.11",
     "@strapi/icons": "2.0.0-rc.11",
-    "@strapi/provider-upload-local": "workspace:*",
+    "@strapi/provider-upload-local": "4.0.0",
     "@strapi/utils": "workspace:*",
     "byte-size": "8.1.1",
     "cropperjs": "1.6.1",
