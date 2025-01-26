@@ -48,7 +48,7 @@
     "@koa/router": "12.0.1",
     "@strapi/database": "workspace:*",
     "@strapi/logger": "workspace:*",
-    "@strapi/permissions": "workspace:*",
+    "@strapi/permissions": "0.0.0",
     "@strapi/utils": "workspace:*",
     "commander": "8.3.0",
     "koa": "2.15.2",
