@@ -54,11 +54,11 @@
     "watch": "strapi-plugin watch"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "1.9.7",
-    "@strapi/admin": "workspace:*",
+    "@reduxjs/toolkit": "2.0.0",
+    "@strapi/admin": "4.3.1",
     "@strapi/design-system": "2.0.0-rc.11",
     "@strapi/icons": "2.0.0-rc.11",
-    "@strapi/utils": "workspace:*",
+    "@strapi/utils": "4.0.0",
     "bcryptjs": "2.4.3",
     "cheerio": "^1.0.0-rc.12",
     "formik": "2.4.5",
@@ -70,7 +70,7 @@
     "react-intl": "6.6.2",
     "swagger-ui-dist": "4.19.0",
     "yaml": "1.10.2",
-    "yup": "0.32.9"
+    "yup": "1.0.0"
   },
   "devDependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
