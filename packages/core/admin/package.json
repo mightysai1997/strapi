@@ -83,7 +83,7 @@
     "@strapi/design-system": "2.0.0-rc.11",
     "@strapi/icons": "2.0.0-rc.11",
     "@strapi/permissions": "workspace:*",
-    "@strapi/types": "workspace:*",
+    "@strapi/types": "0.0.0",
     "@strapi/typescript-utils": "workspace:*",
     "@strapi/utils": "workspace:*",
     "@testing-library/dom": "10.1.0",
