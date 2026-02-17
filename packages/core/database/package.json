@@ -40,8 +40,8 @@
   },
   "dependencies": {
     "@paralleldrive/cuid2": "2.2.2",
-    "@strapi/utils": "workspace:*",
-    "ajv": "8.16.0",
+    "@strapi/utils": "4.0.0",
+    "ajv": "8.18.0",
     "date-fns": "2.30.0",
     "debug": "4.3.4",
     "fs-extra": "11.2.0",
